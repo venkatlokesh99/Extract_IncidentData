@@ -13,7 +13,7 @@ def main(url):
     # Extract data
     incidents = extract_incidents('resources/incident.pdf')
     # print(len(incidents))
-    #print(incidents)
+    # print(incidents)
     
     # delete existing database if any
     deletedb()

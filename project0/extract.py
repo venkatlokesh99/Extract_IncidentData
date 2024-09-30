@@ -42,7 +42,7 @@ def extract_incidents(pdf_path):
             content += page.extract_text(extraction_mode="layout")
    
     lines = content.splitlines("")[3:-1] # removing headers/footers from the pdf file
-    incidents_data = []
+    incidents_data = [] # Holds data after final cleaning 
     lines = [line for line in lines if line.strip()]
     for line in lines:
        if line:

@@ -46,19 +46,8 @@ def status():
     
     for row in cur.fetchall():
         print(f'{row[0]}|{row[1]}')
-
-def printAllRecords():
-    """
-    Prints all the records inserted into DB
-    """
-    (cur,db) = connectdb()
     
-    cur.execute('''SELECT * FROM incidents''')
-    
-    rows =cur.fetchall()
-
-    for row in rows:
-        print(row)
+    db.close()
     
 def deletedb():
     """
