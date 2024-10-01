@@ -35,7 +35,7 @@ pipenv run python project0/main.py --incidents https://www.normanok.gov/sites/de
 
 ### download.py
 - `fetch_incidents(url)`:
-  - Downloads the PDF file from the provided URL using HTTP requests and saves it locally as `resources/incident.pdf`.
+  - Downloads the PDF file from the provided URL using HTTP requests and saves it locally as `resources/incidents.pdf`.
 
 ### extract.py
 - `extract_incidents(pdf_path)`:
