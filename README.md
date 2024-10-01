@@ -115,7 +115,12 @@ Burglary|1
 
 - **Test Name**: `test_deletedb`
   - Tests the deletion of the incidents table in the database. It verifies that the table is no longer present after the deletion operation.
+### Running Tests
 
+Run all tests with:
+```bash
+pipenv run python -m pytest -v
+```
 
 ## Bugs and Assumptions
 
