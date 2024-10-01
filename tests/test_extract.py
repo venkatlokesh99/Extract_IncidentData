@@ -12,9 +12,3 @@ def test_extract():
     assert isinstance(actual_data,list)
     assert set(actual_data[0].keys()) == expected_keys
     assert len(actual_data) == len(expected_data)
-
-
-
-
-
-    
