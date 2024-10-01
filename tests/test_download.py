@@ -5,7 +5,7 @@ def test_download():
     
     fetch_incidents(url)
 
-    with open('resources/incident.pdf', 'rb') as f:
+    with open('resources/incidents.pdf', 'rb') as f:
         actual_data = f.read()
     
     with open('resources/test_incidents_download.pdf', 'rb') as f:
