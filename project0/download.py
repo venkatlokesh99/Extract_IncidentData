@@ -10,5 +10,5 @@ def fetch_incidents(url):
     req = urllib.request.Request(url, headers=headers)
     response = urllib.request.urlopen(req)
 
-    with open('resources/incident.pdf', 'wb') as f:
+    with open('resources/incidents.pdf', 'wb') as f:
         f.write(response.read())

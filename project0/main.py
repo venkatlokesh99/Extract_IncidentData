@@ -11,7 +11,7 @@ def main(url):
     fetch_incidents(url)
 
     # Extract data
-    incidents = extract_incidents('resources/incident.pdf')
+    incidents = extract_incidents('resources/incidents.pdf')
     # print(len(incidents))
     # print(incidents)
     
