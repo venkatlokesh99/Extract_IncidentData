@@ -8,11 +8,11 @@ jobs:
 
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
 
       # Setup Python (faster than using Python container)
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v1
         with:
           python-version: "3.12.5"
 

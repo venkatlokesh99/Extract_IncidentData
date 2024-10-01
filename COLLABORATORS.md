@@ -1,1 +1,2 @@
-
+Pypdf | https://pypdf.readthedocs.io/en/stable/user/extract-text.html | To understand extracting text from pdf
+PyTest docs | https://docs.pytest.org/en/stable/ | Helped me understand PyTest framework and to write Testcases

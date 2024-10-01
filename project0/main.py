@@ -21,7 +21,7 @@ def main(url):
     # Create new database
     createdb()
     
-    # # Insert data
+    # Insert data
     populatedb(incidents)
     
     #Print incident counts
