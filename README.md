@@ -26,7 +26,7 @@ pipenv run python main.py --incidents <url>
 ```bash
 pipenv run python project0/main.py --incidents https://www.normanok.gov/sites/default/files/documents/2024-08/2024-08-01_daily_incident_summary.pdf
 ```
-![video](https://drive.google.com/file/d/1NtvLcKPgxst7AbpRyslSX1_9drzm6_pC/view?usp=drive_link)
+![video](https://github.com/venkatlokesh99/cis6930fa24-project0/blob/main/resources/DE_Project0_13025819.gif)
 ## Functions
 
 ### main.py
