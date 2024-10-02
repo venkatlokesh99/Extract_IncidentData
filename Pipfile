@@ -4,9 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pytest = "*"
 requests = "*"
 pypdf = "*"
+pytest = "*"
+project0 = {file = ".", editable = true}
+
 
 [dev-packages]
 
