@@ -24,7 +24,7 @@ pipenv run python main.py --incidents <url>
 ```
 #### Example
 ```bash
-pipenv run python project0/main.py --incidents https://www.normanok.gov/sites/default/files/documents/2024-08/2024-08-01_daily_incident_summary.pdf
+pipenv run python project0/main.py --incidents https://www.normanok.gov/sites/default/files/documents/2024-09/2024-09-01_daily_incident_summary.pdf
 ```
 ![video](https://github.com/venkatlokesh99/cis6930fa24-project0/blob/main/resources/DE_Project0_13025819.gif)
 ## Functions
@@ -35,7 +35,7 @@ pipenv run python project0/main.py --incidents https://www.normanok.gov/sites/de
 
 ### download.py
 - `fetch_incidents(url)`:
-  - Downloads the PDF file from the provided URL using HTTP requests and saves it locally as `resources/incident.pdf`.
+  - Downloads the PDF file from the provided URL using HTTP requests and saves it locally as `resources/incidents.pdf`.
 
 ### extract.py
 - `extract_incidents(pdf_path)`:
@@ -115,7 +115,12 @@ Burglary|1
 
 - **Test Name**: `test_deletedb`
   - Tests the deletion of the incidents table in the database. It verifies that the table is no longer present after the deletion operation.
+### Running Tests
 
+Run all tests with:
+```bash
+pipenv run python -m pytest -v
+```
 
 ## Bugs and Assumptions
 
