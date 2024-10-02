@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
 
       # Setup Python (faster than using Python container)
       - name: Setup Python
