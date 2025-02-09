@@ -1,4 +1,4 @@
-# cis6930fa24 -- Project0 -- Incident Data Extraction Project
+#Incident Data Extraction Project
 
 Name: Venkat Lokesh Vejendla
 
